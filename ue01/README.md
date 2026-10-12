@@ -15,3 +15,6 @@ Pull Request vom Branch `steckbrief-<kürzel>`.
    anderen, jeweils als eigenen Commit.
 
 `steckbriefe/_beispiel.md` zeigt, wie ein ausgefüllter Steckbrief aussehen kann.
+
+Für den rechtzeitig gestellten Pull Request gibt es Bonuspunkte; die
+Bedingungen stehen im Übungsblatt.
