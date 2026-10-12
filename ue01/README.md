@@ -8,8 +8,9 @@ eigenen Rechner bis in dieses Repository.
 Ihren **Steckbrief** als Datei `steckbriefe/<kürzel>.md`, eingereicht als
 Pull Request vom Branch `steckbrief-<kürzel>`.
 
-1. Kopieren Sie `steckbriefe/_vorlage.md` nach `steckbriefe/<kürzel>.md`. Die
-   Vorlage selbst bleibt unverändert.
+1. Kopieren Sie `steckbriefe/_vorlage.md` nach `steckbriefe/<kürzel>.md` und
+   ersetzen Sie in der Überschrift `<kürzel>` durch Ihr Kürzel. Die Vorlage
+   selbst bleibt unverändert.
 2. Füllen Sie die drei Abschnitte aus — im Lauf der Übung einen nach dem
    anderen, jeweils als eigenen Commit.
 
