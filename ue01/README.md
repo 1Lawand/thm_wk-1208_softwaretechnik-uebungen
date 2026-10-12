@@ -13,4 +13,4 @@ Pull Request vom Branch `steckbrief-<kürzel>`.
 2. Füllen Sie die drei Abschnitte aus — im Lauf der Übung einen nach dem
    anderen, jeweils als eigenen Commit.
 
-`steckbriefe/mmus.md` zeigt ein Beispiel mit einem erfundenen Kürzel.
+`steckbriefe/_beispiel.md` zeigt, wie ein ausgefüllter Steckbrief aussehen kann.
