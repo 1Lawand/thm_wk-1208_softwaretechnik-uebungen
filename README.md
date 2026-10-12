@@ -23,18 +23,42 @@ sagt, was dort einzureichen ist.
    **Push** in Ihren Fork.
 4. Stellen Sie einen **Pull Request** an dieses Repository.
 
-Den Weg Schritt für Schritt beschreibt das Übungsblatt zur Übung 1. Vor jeder
-weiteren Übung bringen Sie Ihren Fork über **Sync fork** auf den neuen Stand.
+Den Weg Schritt für Schritt beschreibt das Übungsblatt zur Übung 1.
+
+## Vor jeder weiteren Übung
+
+Dieses Repository wächst mit jeder Übung. Bringen Sie vorher Ihren Fork und
+Ihren Rechner auf den neuen Stand:
+
+1. Klicken Sie auf der Startseite Ihres Forks auf **Sync fork → Update
+   branch**.
+2. Holen Sie den neuen Stand aus dem Fork auf Ihren Rechner:
+
+   ```console
+   $ git switch main
+   $ git pull
+   ```
+
+Den Branch für die neue Übung zweigen Sie erst danach ab.
 
 ## Spielregeln
 
 - **Kürzel statt Klarname.** Dieses Repository ist öffentlich. Wählen Sie ein
   Kürzel, das Sie selbst wiedererkennen, und behalten Sie es über alle
-  Übungen bei. Schreiben Sie nichts hinein, was nicht jeder lesen darf —
-  keine Matrikelnummer, keine Anschrift.
-- **Nur eigene Dateien.** Sie ändern ausschließlich Dateien, die Ihr Kürzel
-  tragen. So kommen sich die Pull Requests nicht in die Quere.
-- **Ein Branch je Vorhaben.** Auf `main` wird nicht direkt gearbeitet.
+  Übungen bei. Es wird Teil von Datei- und Branchnamen: nur Kleinbuchstaben
+  und Ziffern, keine Umlaute, keine Leerzeichen. Liegt unter
+  `ue01/steckbriefe/` schon eine Datei mit Ihrem Kürzel, hängen Sie eine
+  Ziffer an.
+- **Öffentlich ist mehr als das Kürzel.** Am Pull Request steht Ihr
+  GitHub-Benutzername, in jedem Commit stehen Name und E-Mail-Adresse aus
+  Ihrer Git-Einrichtung. Wie Sie Ihre Adresse verbergen, steht in Aufgabe 0
+  des Übungsblatts. Schreiben Sie auch in Ihre Dateien nichts, was nicht
+  jeder lesen darf — keine Matrikelnummer, keine Anschrift.
+- **Nur eigene Dateien.** Sie ändern ausschließlich, was Sie selbst angelegt
+  haben; Vorlagen und die Dateien anderer bleiben unberührt. So kommen sich
+  die Pull Requests nicht in die Quere.
+- **Nicht auf `main` arbeiten.** `main` Ihres Forks folgt allein dem Stand
+  dieses Repositorys; nur so lässt er sich später abgleichen.
 - **Ein Anliegen je Pull Request**, mit einem Titel, der sagt, was sich
   ändert.
 - **Aussagekräftige Commit-Nachrichten**, etwa `Steckbrief für mmus anlegen`.
